@@ -1,11 +1,16 @@
-import { Tabs } from "expo-router";
+import { Stack, Tabs } from "expo-router";
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { LogBox } from "react-native";
+
+LogBox.ignoreAllLogs(true);
 
 export default function TabLayout(){
   return(
-    <Tabs
+
+
+     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: '#ff3d3dff',
+      tabBarActiveTintColor: '#ff3d3dff',
       }}>
 
         <Tabs.Screen
@@ -18,6 +23,7 @@ export default function TabLayout(){
             ),
           }}
         />
+        
         <Tabs.Screen
           name="about"
           options={{

@@ -3,7 +3,9 @@ import { Text, View, StyleSheet } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Página inicial</Text>
+      <h1>𓆝 𓆟 𓆞 𓆝 𓆟</h1>
+      <Text style={styles.text}>⋆. 𐙚˚࿔ Página Inicial 𝜗𝜚˚⋆</Text>
+      <h1 >𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼</h1>
     </View>
   );
 }
@@ -11,12 +13,12 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '25292e',
+    backgroundColor: '#bceaf4c4',
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
-    color: '#000000',
+    color: '#3871c1',
   },
 
 });
