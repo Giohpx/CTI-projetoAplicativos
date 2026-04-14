@@ -10,20 +10,20 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: '#ffffff',
-        headerStyle: { backgroundColor: '#6299f0' },
+        headerStyle: { backgroundColor: '#b9771a' },
         headerShadowVisible: false,
         headerTintColor: '#fff',
-        tabBarStyle: { backgroundColor: '#6299f0' },
+        tabBarStyle: { backgroundColor: '#b9771a' },
       }}
     >
 
       
-      <Tabs.Screen
+  <Tabs.Screen
   name="index"
   options={{
     title: 'Home',
     tabBarIcon: ({ focused }) => (
-  <EvilIcons name="heart" size={24} color={focused ? "#322ac9" : "#ffffff"} />    ),
+  <EvilIcons name="heart" size={24} color={focused ? "#c9892a" : "#ffffff"} />    ),
   }}
 />
 <Tabs.Screen
@@ -31,7 +31,23 @@ export default function TabLayout() {
   options={{
     title: 'About',
     tabBarIcon: ({ focused }) => (
-  <AntDesign name="heart" size={24} color={focused ? "#322ac9" : "#ffffff"} />    ),
+  <AntDesign name="heart" size={24} color={focused ? "#c9892a" : "#ffffff"} />    ),
+  }}
+/>
+<Tabs.Screen
+  name="toDoList"
+  options={{
+    title: 'To-Do List',
+    tabBarIcon: ({ focused }) => (
+  <AntDesign name="heart" size={24} color={focused ? "#c9892a" : "#ffffff"} />    ),
+  }}
+/>
+<Tabs.Screen
+  name="seresDoMar"
+  options={{
+    title: 'Seres do Mar',
+    tabBarIcon: ({ focused }) => (
+  <EvilIcons name="heart" size={24} color={focused ? "#c9892a" : "#ffffff"} />    ),
   }}
 />
     </Tabs>

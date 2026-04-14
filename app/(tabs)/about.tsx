@@ -33,7 +33,7 @@ Nem todo marinheiro é herói, e nem todo pirata é vilão — e é aí que a hi
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2b299adc',
+    backgroundColor: '#d9cfa8c4',
   },
 
   text: {
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   textAlign: 'center',
   marginTop: 15,
   marginBottom: 10,
-  textShadowColor: '#00000080',
+  textShadowColor: '#ffffff80',
   textShadowOffset: { width: 1, height: 1 },
   textShadowRadius: 3,
 },
@@ -55,11 +55,11 @@ text2: {
   marginTop: 10,
   marginHorizontal: 20,
   lineHeight: 24,
-  backgroundColor: '#1c2a7a80',
+  backgroundColor: '#e3aa25',
   padding: 10,
   borderRadius: 10,
   borderWidth: 1,
-  borderColor: '#4db8ff50',
+  borderColor: '#e3aa25',
 },
   imageContainer: {
   alignItems: 'center',
@@ -69,12 +69,12 @@ text2: {
   width: '100%',
   aspectRatio: 4, 
   borderWidth: 6,
-  borderColor: '#132155',
+  borderColor: '#e3aa25',
   },
 
   button: { 
     fontSize: 20,
-    color: '#000000',
+    color: '#e3aa25',
     textAlign: 'center',
     marginTop: 20,
   },
